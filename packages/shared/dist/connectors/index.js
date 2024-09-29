@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ECOMMERCE_PROVIDERS = exports.FILESTORAGE_PROVIDERS = exports.MARKETINGAUTOMATION_PROVIDERS = exports.TICKETING_PROVIDERS = exports.ACCOUNTING_PROVIDERS = exports.ATS_PROVIDERS = exports.HRIS_PROVIDERS = exports.CRM_PROVIDERS = void 0;
+exports.CRM_PROVIDERS = ['zoho', 'zendesk', 'hubspot', 'pipedrive', 'attio', 'close', 'microsoftdynamicssales'];
+exports.HRIS_PROVIDERS = [];
+exports.ATS_PROVIDERS = ['ashby'];
+exports.ACCOUNTING_PROVIDERS = [];
+exports.TICKETING_PROVIDERS = ['zendesk', 'front', 'jira', 'gorgias', 'gitlab', 'github', 'linear'];
+exports.MARKETINGAUTOMATION_PROVIDERS = [];
+exports.FILESTORAGE_PROVIDERS = ['box', 'onedrive', 'sharepoint', 'dropbox', 'googledrive'];
+exports.ECOMMERCE_PROVIDERS = ['shopify', 'woocommerce', 'squarespace', 'amazon', 'webflow'];
